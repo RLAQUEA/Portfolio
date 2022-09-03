@@ -223,7 +223,7 @@ width: 100%;
   background-color: var(--purple);
   line-height: 28px;
   /* transform: translateY(300px); */
-  animation: slideDown .8s ease-in-out forwards .8s;
+  /* animation: slideDown .8s ease-in-out forwards .8s; */
 }
 /* 
 .topnav a {
