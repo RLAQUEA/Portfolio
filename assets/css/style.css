@@ -192,6 +192,7 @@ h1 {
     font-size: 40px;
     color: var(--charcoal);
     margin-bottom: 20px;
+    padding-top: 20%;
     transform: translateY(100px);
     animation: slideUp .8s ease forwards .5s;
 }
@@ -289,6 +290,14 @@ text-align: center;
 footer.page-footer {
   margin-left: 30%;
 
+}
+
+@media only screen and (max-width: 480px) {
+    .parallax-container .section h1 {
+      position: absolute;
+      top: 60%; 
+      padding-bottom: 20%;
+  }
 }
 
 @media only screen and (max-width : 992px) {
